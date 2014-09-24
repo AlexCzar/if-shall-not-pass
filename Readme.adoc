@@ -2,8 +2,15 @@
 image::http://i59.tinypic.com/2cprtdh.png["IF Shall Not Pass!"]
 
 
-This is a simple message processing application, its +main+ method processes a list of messages. Although the list is statically generated you cannot use this to your advantage and write an implementation which would only work for the given list of messages.
-Your task is to provide missing code so that the application starts to work. You can only add code as a replacement for the +// TODO: your code can be here+, modifying anything else is against the rules, you also cannot use any execution flow branching constructs like +if+ or +switch+, usage of Reflection API is not allowed either.
+This is a simple message processing application, its +main+ method processes a list of messages.
+ Although the list is statically generated you cannot use this to your advantage and write an implementation which
+  would only work for the given list of messages.
+
+Your task is to provide missing code so that the application starts to work.
+You can only add code as a replacement for the +// TODO: your code can be here+, modifying anything else
+is against the rules, you also cannot use any execution flow branching constructs like +if+ or +switch+,
+usage of Reflection API is not allowed either.
+
 When you correctly complete the program and execute it you should see following output:
 [listing]
 .stdout
