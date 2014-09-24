@@ -1,0 +1,35 @@
+== IF Shall Not Pass
+image::http://i59.tinypic.com/2cprtdh.png["IF Shall Not Pass!"]
+
+
+This is a simple message processing application, its +main+ method processes a list of messages. Although the list is statically generated you cannot use this to your advantage and write an implementation which would only work for the given list of messages.
+Your task is to provide missing code so that the application starts to work. You can only add code as a replacement for the +// TODO: your code can be here+, modifying anything else is against the rules, you also cannot use any execution flow branching constructs like +if+ or +switch+, usage of Reflection API is not allowed either.
+When you correctly complete the program and execute it you should see following output:
+[listing]
+.stdout
+....
+Processing MessageA with id '47f9eb94-1993-4c4b-ac4c-7bfeb06629f7'
+Addressee is: feofan@example.com
+Message with id '47f9eb94-1993-4c4b-ac4c-7bfeb06629f7' has been marked as processed.
+--------------------------------------------------
+Processing MessageA with id '50416a79-201e-4564-821a-2f1926908880'
+Addressee is: beqa@example.com
+Message with id '50416a79-201e-4564-821a-2f1926908880' has been marked as processed.
+--------------------------------------------------
+Processing MessageB with id 'c7f99bef-1680-4cdc-9f14-abc26d0443c6
+'Message addressees are giga@example.com
+Message with id 'c7f99bef-1680-4cdc-9f14-abc26d0443c6' has been marked as processed.
+--------------------------------------------------
+Processing MessageB with id '137408bc-51a2-4f45-9f0d-8e7b39a08449
+'Message addressees are vasya@example.com
+Message with id '137408bc-51a2-4f45-9f0d-8e7b39a08449' has been marked as processed.
+--------------------------------------------------
+Processing MessageC with id 'e8087f05-8bc6-4307-be91-a6bed81b2f38'
+Message priority is 'HIGH'
+Message with id 'e8087f05-8bc6-4307-be91-a6bed81b2f38' has been marked as processed.
+--------------------------------------------------
+Processing MessageC with id '66302517-f285-4e1d-aa5e-9f793a474d6e'
+Message priority is 'MEDIUM'
+Message with id '66302517-f285-4e1d-aa5e-9f793a474d6e' has been marked as processed.
+--------------------------------------------------
+....
